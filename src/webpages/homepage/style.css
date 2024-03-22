@@ -1,0 +1,28 @@
+.masterDiv{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+  20deg,
+  hsl(249deg 100% 20%) 0%,
+  hsl(252deg 100% 28%) 9%,
+  hsl(254deg 100% 36%) 18%,
+  hsl(257deg 100% 44%) 27%,
+  hsl(260deg 100% 50%) 36%,
+  hsl(261deg 100% 50%) 45%,
+  hsl(263deg 100% 50%) 55%,
+  hsl(265deg 100% 50%) 64%,
+  hsl(268deg 100% 50%) 73%,
+  hsl(272deg 100% 50%) 82%,
+  hsl(276deg 100% 50%) 91%,
+  hsl(280deg 100% 50%) 100%
+);
+}
+
+.headText{
+    color: var(--mainTextColor);
+    font-size: 5rem;
+}
+.text{
+    color: var(--mainTextColor);
+    font-size: 1rem;
+}
