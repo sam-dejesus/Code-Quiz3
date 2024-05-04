@@ -1,21 +1,6 @@
 .masterDiv{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(
-  20deg,
-  hsl(249deg 100% 20%) 0%,
-  hsl(252deg 100% 28%) 9%,
-  hsl(254deg 100% 36%) 18%,
-  hsl(257deg 100% 44%) 27%,
-  hsl(260deg 100% 50%) 36%,
-  hsl(261deg 100% 50%) 45%,
-  hsl(263deg 100% 50%) 55%,
-  hsl(265deg 100% 50%) 64%,
-  hsl(268deg 100% 50%) 73%,
-  hsl(272deg 100% 50%) 82%,
-  hsl(276deg 100% 50%) 91%,
-  hsl(280deg 100% 50%) 100%
-);
 }
 
 .headText{
@@ -24,5 +9,38 @@
 }
 .text{
     color: var(--mainTextColor);
-    font-size: 1rem;
+    font-size: 8px;
+}
+.gameMode{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.custom-btn{
+    color: var(--mainTextColor);
+    width: 10%;
+    height: 5vh;
+    margin: 0 20% 0 20%;
+    font-size: 2em;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--mainTextColor); 
+}
+
+.custom-btn:hover {
+    color: #fff;
+    background-color: var(--mainTextColor);
+    border-color: var(--mainTextColor);
+}
+
+.custom-btn:focus, 
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem var(--mainTextColor);
 }
